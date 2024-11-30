@@ -18,7 +18,7 @@ const scope = "read,account";
 const expiration = "1hour";
 const key = "860d8acca66b15ecb972c95c2210d8f9";
 const secret = "aa895690079228f9316bd53f78631a0a5ce7bc0e4aee9bc473202836ff32f28a";
-const loginCallback = `http://localhost:5000/callback`; // Replace with your actual callback URL
+const loginCallback = `https://trello-oauth-app.onrender.com/callback`; // Replace with your actual callback URL
 
 const oauth_secrets = {};
 const oauth = new OAuth(
